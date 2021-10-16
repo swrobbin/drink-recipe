@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
-import { BrowserRouter } from 'react-router-dom'
+import { MyProvider } from './context/MyContext'
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <MyProvider>
     <App />
-  </BrowserRouter>,
+  </MyProvider>,
   document.getElementById('root')
 );
 

@@ -24,7 +24,8 @@ const Navbar = () => {
                 }}>
                 <button>Home</button>
             </NavLink>
-            
+            <br/>
+            <br/>
             <NavLink 
                 exact to='/recipes'
                 style={linkStyles}
@@ -32,6 +33,16 @@ const Navbar = () => {
                     background:"blue"
                 }}>
                 <button>Drink Recipes</button>
+            </NavLink>
+            <br/>
+            <br/>
+            <NavLink 
+                exact to='/recipes/new'
+                style={linkStyles}
+                activeStyle={{
+                    background:"blue"
+                }}>
+                <button>Create New Recipe</button>
             </NavLink>
             
         </div>
