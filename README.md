@@ -1,3 +1,5 @@
+To use Drinker's Dream, first cd into the folder called drink-recipe. Next, open the project by typing code . . To start the local server, type npm start into a terminal tab. This will take you to http://localhost:3000. In another terminal tab, type json-server --watch db.json -p 3001. This will start the server for our backend database. Enjoy!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
